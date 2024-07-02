@@ -1,6 +1,6 @@
 {
     "name": "hupu",
     "icons": [
-     { "name": "hupu", "url": "https://raw.github.com/zwjtano/rules/blob/main/hupu.png"},
+     { "name": "hupu", "url": "https://raw.githubusercontent.com/zwjtano/rules/main/hupu.png"},
     ]
 }
