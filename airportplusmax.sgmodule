@@ -1,5 +1,5 @@
 #!name=airport
-#!desc=显示机场剩余流量信息以及套餐到期日期
+#!desc=流量
 #!system=ios
 #!category=机场流量信息
 #!arguments=NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期
