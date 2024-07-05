@@ -3,6 +3,7 @@
 #!system=ios
 #!arguments=NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,COLOR_1:第一个机场的颜色,ICON_1:第一个机场的图标,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,COLOR_2:第二个机场的颜色,ICON_2:第二个机场的图标,NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,COLOR_3:第三个机场的颜色,ICON_3:第三个机场的图标
 #!arguments-desc=[参数设置]\n\n⓵ NAME: 写你机场的名字,默认开启单订阅。\n\n⓶ URL: 编码后的机场订阅。\n\n⓷ RESET_DAY: 流量每月重置的日期,如26号就写26,不设置则不显示流量重置日,仅显示到期日期。\n\n⓸ COLOR: 颜色代码，用于自定义面板颜色。\n\n⓹ ICON: 图标名称，用于自定义面板图标。
+# 编码地址 https://www.urlencoder.org/
 # 更新日期：2024.07.05
 # 版本：4.2
 #来源Rabbit-Spec https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info_Max.sgmodule
