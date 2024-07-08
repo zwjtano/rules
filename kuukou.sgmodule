@@ -1,12 +1,10 @@
-#!name=airports
-#!desc=流量面板
+#!name=airport
+#!desc=显示机场剩余流量信息以及套餐到期日期
 #!system=ios
 #!arguments=NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,COLOR_1:第一个机场的颜色,ICON_1:第一个机场的图标,NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,COLOR_2:第二个机场的颜色,ICON_2:第二个机场的图标,NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,COLOR_3:第三个机场的颜色,ICON_3:第三个机场的图标
 #!arguments-desc=[参数设置]\n\n⓵ NAME: 写你机场的名字,默认开启单订阅。\n\n⓶ URL: 编码后的机场订阅。\n\n⓷ RESET_DAY: 流量每月重置的日期,如26号就写26,不设置则不显示流量重置日,仅显示到期日期。\n\n⓸ COLOR: 颜色代码，用于自定义面板颜色。\n\n⓹ ICON: 图标名称，用于自定义面板图标。
-# 编码地址 https://www.urlencoder.org/
-# 更新日期：2024.07.05
+# 更新日期：2024.07.04
 # 版本：4.2
-#来源Rabbit-Spec https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info_Max.sgmodule
 
 [Panel]
 {{{NAME_1}}}=script-name={{{NAME_1}}},update-interval=3600
@@ -17,3 +15,48 @@
 {{{NAME_1}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon={{{ICON_1}}}&color={{{COLOR_1}}}
 {{{NAME_2}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon={{{ICON_2}}}&color={{{COLOR_2}}}
 {{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3}}}&color={{{COLOR_3}}}
+
+# 常用 hex 颜色代码示例：
+# - 红色: #FF0000
+# - 绿色: #00FF00
+# - 蓝色: #0000FF
+# - 黄色: #FFFF00
+# - 橙色: #FFA500
+# - 粉色: #FFC0CB
+# - 紫色: #800080
+# - 黑色: #000000
+# - 白色: #FFFFFF
+# - 天蓝色: #87CEEB
+# - 棕色: #A52A2A
+# - 灰色: #808080
+# - 金色: #FFD700
+# - 银色: #C0C0C0
+# - 浅绿色: #90EE90
+# - 深蓝色: #00008B
+# - 紫罗兰: #EE82EE
+# - 珊瑚色: #FF7F50
+# - 栗色: #800000
+# - 橄榄色: #808000
+# - 石板蓝: #6A5ACD
+# - 薄荷色: #98FF98
+# - 米色: #F5F5DC
+# - 青色: #00FFFF
+# - 深红色: #8B0000
+# - 深绿色: #006400
+# - 薰衣草: #E6E6FA
+# - 紫红色: #C71585
+# - 亮蓝色: #ADD8E6
+# - 亮绿色: #90EE90
+# - 亮黄色: #FFFFE0
+# - 浅蓝色: #ADD8E6
+# - 浅灰色: #D3D3D3
+# - 浅粉色: #FFB6C1
+# - 浅紫色: #E6E6FA
+# - 鹅黄色: #FFFACD
+# - 水鸭色: #48D1CC
+# - 藏青色: #000080
+# - 豆沙色: #D2B48C
+# - 番茄色: #FF6347
+# - 亮青色: #E0FFFF
+# - 紫丁香: #DDA0DD
+# - 火焰色: #E25822
