@@ -1,4 +1,4 @@
-#!name=flights
+#!name=airport
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!system=ios
 #!arguments=NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,COLOR_1:第一个机场的颜色(默认: #F7689F),ICON_1:第一个机场的图标(默认: heart),NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,COLOR_2:第二个机场的颜色(默认: #0EF33C),ICON_2:第二个机场的图标(默认: soccerball),NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,COLOR_3:第三个机场的颜色(默认: #E3F30E),ICON_3:第三个机场的图标(默认: airplane.departure)
@@ -12,6 +12,6 @@
 {{{NAME_3}}}=script-name={{{NAME_3}}},update-interval=3600
 
 [Script]
-{{{NAME_1}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon={{{ICON_1:heart}}}&color={{{COLOR_1:#F7689F}}}
-{{{NAME_2}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon={{{ICON_2:soccerball}}}&color={{{COLOR_2:#0EF33C}}}
-{{{NAME_3}}}=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3:airplane.departure}}}&color={{{COLOR_3:#E3F30E}}}
+NAME_1=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_1}}}&reset_day={{{RESET-Day_1}}}&title={{{NAME_1}}}&icon={{{ICON_1:heart}}}&color={{{COLOR_1:#F7689F}}}
+NAME_2=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_2}}}&reset_day={{{RESET-Day_2}}}&title={{{NAME_2}}}&icon={{{ICON_2:soccerball}}}&color={{{COLOR_2:#0EF33C}}}
+NAME_3=type=generic,timeout=10,script-path=https://raw.githubusercontent.com/Rabbit-Spec/Surge/Master/Module/Panel/Sub-info/Moore/Sub-info.js,script-update-interval=0,argument=url={{{URL_3}}}&reset_day={{{RESET-Day_3}}}&title={{{NAME_3}}}&icon={{{ICON_3:airplane.departure}}}&color={{{COLOR_3:#E3F30E}}}
