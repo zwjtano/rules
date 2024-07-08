@@ -1,4 +1,4 @@
-#!name=airport
+#!name=flights
 #!desc=显示机场剩余流量信息以及套餐到期日期
 #!system=ios
 #!arguments=NAME_1:第一个机场的名字,URL_1:编码后的机场订阅,RESET-Day_1:重置日期,COLOR_1:第一个机场的颜色(默认: #F7689F),ICON_1:第一个机场的图标(默认: heart),NAME_2:#第二个机场的名字,URL_2:编码后的机场订阅,RESET-Day_2:重置日期,COLOR_2:第二个机场的颜色(默认: #0EF33C),ICON_2:第二个机场的图标(默认: soccerball),NAME_3:#第三个机场的名字,URL_3:编码后的机场订阅,RESET-Day_3:重置日期,COLOR_3:第三个机场的颜色(默认: #E3F30E),ICON_3:第三个机场的图标(默认: airplane.departure)
