@@ -1,0 +1,10 @@
+#############################################
+# 分流作用：对 YouTube TV 相关服务进行分流
+# 策略选择：选择支持 YouTube TV 的美国地区节点
+#############################################
+
+DOMAIN,tv.youtube.com
+DOMAIN-SUFFIX,tv.youtube.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
